@@ -1,3 +1,20 @@
+$dark-blue: #005cb2;
+$primary-blue: #1e88e5;
+
+$background: #FAFAFA;
+
+$secondary-text: #616161;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+@import "./topbar.scss";
+
 body{
-  color: red;
+  color: $secondary-text;
+  background-color: $background;
+  font-family: 'Roboto', 'sans-serif';
+  margin: 0;
 }
+
+
+
